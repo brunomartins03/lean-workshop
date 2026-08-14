@@ -1,2 +1,3 @@
-# lean-workshop
-Workshop de Lean, SemUni '26
+# Workshop: Introdução à formalização de provas matemáticas com Lean 4
+
+*Coming soon...*
