@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Workshop de Formalização',
+  tagline: 'SemUni 2026',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -75,21 +75,21 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Workshop de Formalização',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'UnB Logo',
+        src: 'img/unb.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Materiais',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/brunomartins03/lean-workshop',
           label: 'GitHub',
           position: 'right',
         },
@@ -98,47 +98,47 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Docs',
+        //   items: [
+        //     {
+        //       label: 'Tutorial',
+        //       to: '/docs/intro',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'Community',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'X',
+        //       href: 'https://x.com/docusaurus',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: 'More',
+        //   items: [
+        //     {
+        //       label: 'Blog',
+        //       to: '/blog',
+        //     },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/brunomartins03/lean-workshop',
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Universidade de Brasília`,
     },
     prism: {
       theme: prismThemes.github,
